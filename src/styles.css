@@ -14,8 +14,74 @@ body {
   background-color: var(--odin-dark);
 }
 
+button {
+  cursor: pointer;
+}
+
 /*HEADER*/
 
+.header {
+  height: 90px;
+}
+
 /*NAV*/
+
+.nav {
+  padding: 2em 3em;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown-button {
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(48, 91, 184);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 8px 30px;
+}
+
+.dropdown-menu {
+  background-color: rgb(243, 243, 243);
+  padding: 2em 3em;
+  position: absolute;
+  display: none;
+}
+
+.visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-menu li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.dropdown-menu li {
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.menu-item {
+  color: black;
+  text-decoration: none;
+}
 
 /*MAIN*/
