@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Interface</title>
+  <script defer src="main.js"></script></head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <button class="dropdown-button">Pages</button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-menu-item">
+                <a href="#" class="menu-item">Home</a>
+              </li>
+              <li class="dropdown-menu-item">
+                <a href="#" class="menu-item">Settings</a>
+              </li>
+              <li class="dropdown-menu-item">
+                <a href="#" class="menu-item">About Us</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-list__item">
+            <button class="dropdown-button">Cart</button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-menu-item">
+                <a href="#" class="menu-item">Cool-Item1</a>
+              </li>
+              <li class="dropdown-menu-item">
+                <a href="#" class="menu-item">Cool-Item2</a>
+              </li>
+              <li class="dropdown-menu-item">
+                <a href="#" class="menu-item">Cool-Item3</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="image-carousel-container">
+        <img
+          src="c9a06fce7cfba83660ae.jpg"
+          alt="monogatari"
+          class="slide__img  slide__img-1 slide__img--active"
+        />
+        <img
+          src="ce8b5b986b7280bcbb82.jpg"
+          alt="monogatari"
+          class=" slide__img slide__img-2 obj-position"
+        />
+        <img
+          src="67d42ef0daf93cc6f23e.jpg"
+          alt="monogatari"
+          class=" slide__img slide__img-3"
+        />
+        <button class="slide__btn slide__btn-left">&#10094;</button>
+        <button class="slide__btn slide__btn-right">&#10095;</button>
+      </div>
+      <div class="navigation-dots-container">
+        <button class="nav-dot nav-dot-1 nav-dot--active"></button>
+        <button class="nav-dot nav-dot-2"></button>
+        <button class="nav-dot nav-dot-3"></button>
+      </div>
+    </main>
+  </body>
+</html>
